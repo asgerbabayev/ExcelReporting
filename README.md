@@ -17,16 +17,6 @@ Lahiyə excel faylından məlumatları oxuyub məlumat bazasına yazmalıdır v�
 
 - 4 - Məhsula görə endirimlər - Hər məhsula görə tarix aralığında məhsula necə faiz endirim olunduğu məlumat
 
-##### Testing
-
-Lahiyənin Unit Testingi yazılmalıdır və Code Coverage 80%-den yuxarı olmalıdır.
-
-
-#### Ci/CD
-Feature folderi altında olan branch-lərə push olduqda işə düşməlidir.
-
-- [Code Coverage Summary](https://github.com/marketplace/actions/code-coverage-summary)
-
 #### Logging
 
 - Sistemdə bütün əməliyyatlar və xətalar loglanmalıdır.
