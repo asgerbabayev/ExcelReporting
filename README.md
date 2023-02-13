@@ -5,7 +5,7 @@ Lahiyə excel faylından məlumatları oxuyub məlumat bazasına yazmalıdır v�
 ##### Enpointler aşağıdaklar olmalıdır
 
 - UploadData/POST/File(binary) - məlumat faylı yüklənməsi - fayl yalnız xlxs və xls ola bilər, max 5mb yükləyə bilməlidir, yüklənmiş faylın template uyğun olması lazımdır.
-- SendReport/GET/Type(int) | StartDate(DateTime) | EndDate(DateTime) | AcceptorEmail(string[]) - hesabatın növü və email ünvanları göndərərək hesabat istəyi - Type enum olmalıdır və seçimlərin çölündə ola bilməz, emaillərin düzgün formatda bitiyini və code.edu.az domainə aid olduğunu yoxlamaq. StartDate-in EndDate-dən kiçik olduğunu yoxlamaq.
+- SendReport/GET/Type(int) | StartDate(DateTime) | EndDate(DateTime) | AcceptorEmail(string[]) - hesabatın növü və email ünvanları göndərərək hesabat istəyi - Type enum olmalıdır və seçimlərin çölündə ola bilməz, emaillərin düzgün formatda bitiyini və code.edu.az domainə aid olduğunu yoxlamaq. StartDate-in EndDate-dən kiçik olduğunu yoxlamaq. Mailləri queue-dan göndərmək
 
 ##### Hesabat növləri
 
